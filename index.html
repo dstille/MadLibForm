@@ -6,6 +6,8 @@
   <meta name="viewport" content="width=device-width">
   <title>Mad Lib with Forms</title>
   <link href="style.css" rel="stylesheet" type="text/css" />
+  <script src="https://www.gstatic.com/firebasejs/10.10.0/firebase-app-compat.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/10.10.0/firebase-firestore-compat.js"></script>
 </head>
 
 <body>
@@ -31,6 +33,25 @@
   </div>
   <p id="result"></p>
   <script src="script.js"></script>
+  <script type="module">
+    // Import the functions you need from the SDKs you need
+    import {initializeApp} from "https://www.gstatic.com/firebasejs/10.10.0/firebase-app.js";
+    // TODO: Add SDKs for Firebase products that you want to use
+    // https://firebase.google.com/docs/web/setup#available-libraries
+
+    // Your web app's Firebase configuration
+    const firebaseConfig = {
+      auapiKey: "AIzaSyDyFo62HBJ3HISjEI66pdRBMvQJ1FNhYd8",
+      authDomain: "madlib-f19eb.firebaseapp.com",
+      projectId: "madlib-f19eb",
+      storageBucket: "madlib-f19eb.appspot.com",
+      messagingSenderId: "685475470415",
+      appId: "1:685475470415:web:3a92f278c61f7f77965e3a"
+    };
+
+    // Initialize Firebase
+    const app = initializeApp(firebaseConfig);
+  </script>
 </body>
 
 </html>
