@@ -1,0 +1,34 @@
+html {
+  height: 70%;
+  width: 50%;
+}
+
+form {
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-size: 15px;
+  font-weight: bold;
+  color: #000000;
+  background-color: lightgray;
+  ;
+}
+
+p {
+  font-family: comic sans ms;
+  color: green;
+  font-size: 25px;
+  background-color: whitesmoke;
+  border: 30px;
+  margin: 30px;
+  padding: 30px;
+}
+
+#left {
+  float: left;
+  width: 40%;
+  height: 50%;
+}
+
+p {: auto;
+  width: auto;
+  height: auto;
+}
